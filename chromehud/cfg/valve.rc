@@ -1,0 +1,6 @@
+    r_decal_cullsize 1                // cull decals under 1px size
+    exec joystick.cfg                // setup custom joystick controller
+    exec autoexec.cfg                // run user script file
+    exec chromehud/startup.cfg            // initialize chromehud scripts
+    stuffcmds                        // stuff command line statements
+    startupmenu                        // open initial menu screen
