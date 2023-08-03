@@ -63,7 +63,7 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		"ChromeBlack"		"25 25 28 255"
-		"ChromeBlackTransparent"	"25 25 28 220"
+		"ChromeBlackTransparent"	"25 25 28 240"
 		"BlackBright"				"66 63 62 255"
 		"BlackDark"					"36 33 32 255"
 		
@@ -3551,6 +3551,17 @@ Scheme
 			}
 		}
 
+		TF2Icons20
+		{
+			"1"
+			{
+				"name"		"TF2 Icons"
+				"tall"		"20"
+				"weight"	"700"
+				"antialias" "1"
+			}
+		}
+
 		TF2Icons25
 		{
 			"1"
@@ -3651,10 +3662,11 @@ Scheme
 	{
 		//chromehud borders
 
-		rounded
+		ChromeRoundedBasic
 		{
 			"inset" "0 0 0 0"
 			"backgroundtype" "2"
+			"RoundedCorners"	"15"
 		}
 		
 		//default borders

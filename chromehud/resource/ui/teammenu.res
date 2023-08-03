@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"bgcolor_override"		"0 0 0 150" //Change this to 0 0 0 0 to remove the darkened background
 	}
 
 	"SysMenu"
@@ -77,9 +78,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3"	[$WIN32]
-		"labelText"		""		[$X360]
-		"textAlignment"	"south-west"
+		"labelText"		"%bluecount%"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -87,26 +87,34 @@
 		"team"				"3"		// team blue
 		"associated_model"	"spectate"
 		"hover"				"2.0"
-		"font"			"MontserratMedium20"
-		"fgcolor"		"255 255 255 255"
+		"font"			"MontserratBold50"
+		"fgcolor"		"White"
+
+		"defaultBgColor_override"	"72 118 156 240"
+		"armedBgColor_override"				"92 128 166 240"
+		"depressedBgColor_override" 		"92 128 166 240"
+		
+		"defaultFgColor_override"			"White"
+		"armedFgColor_override"				"White"
+		"depressedFgColor_override" 		"White"
 	}
 
-	"BluPanel"
-    {
-        "ControlName"        "EditablePanel"
-        "fieldName"        "BluPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"220"
-		"tall"			"125"
-        "visible"        "1"
-        "enabled"        "1"
-        "scaleImage"        "0"    
-        "bgcolor_override"            "DisguiseMenuIconBlue"
-		"paintbackgroundtype"	"2"
-		"pin_to_sibling"	"teambutton0"
-    }
+	// "BluPanel"
+    // {
+    //     "ControlName"        "EditablePanel"
+    //     "fieldName"        "BluPanel"
+	// 	"xpos"			"0"
+	// 	"ypos"			"0"
+	// 	"zpos"			"4"
+	// 	"wide"			"220"
+	// 	"tall"			"125"
+    //     "visible"        "1"
+    //     "enabled"        "1"
+    //     "scaleImage"        "0"    
+    //     "bgcolor_override"            "DisguiseMenuIconBlue"
+	// 	"paintbackgroundtype"	"2"
+	// 	"pin_to_sibling"	"teambutton0"
+    // }
 
 	"teambutton1"
 	{
@@ -122,9 +130,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"&4"	[$WIN32]
-		"labelText"		""		[$X360]
-		"textAlignment"	"south-east"
+		"labelText"		"%bluecount%"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -132,26 +139,34 @@
 		"team"				"2"		// team red
 		"associated_model"	"spectate"	
 		"hover"				"2.0"
-		"font"			"MontserratMedium20"
-		"fgcolor"		"255 255 255 255"
+		"font"			"MontserratBold50"
+		"fgcolor"		"White"
+
+		"defaultBgColor_override"	"172 46 53 240"
+		"armedBgColor_override"				"192 56 63 240"
+		"depressedBgColor_override" 		"192 56 63 240"
+		
+		"defaultFgColor_override"			"White"
+		"armedFgColor_override"				"White"
+		"depressedFgColor_override" 		"White"
 	}
 
-	"RedPanel"
-    {
-        "ControlName"        "EditablePanel"
-        "fieldName"        "RedPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"220"
-		"tall"			"125"
-        "visible"        "1"
-        "enabled"        "1"
-        "scaleImage"        "0"    
-        "bgcolor_override"            "DisguiseMenuIconRed"
-		"paintbackgroundtype"	"2"
-		"pin_to_sibling"	"teambutton1"
-    }
+	// "RedPanel"
+    // {
+    //     "ControlName"        "EditablePanel"
+    //     "fieldName"        "RedPanel"
+	// 	"xpos"			"0"
+	// 	"ypos"			"0"
+	// 	"zpos"			"4"
+	// 	"wide"			"220"
+	// 	"tall"			"125"
+    //     "visible"        "1"
+    //     "enabled"        "1"
+    //     "scaleImage"        "0"    
+    //     "bgcolor_override"            "DisguiseMenuIconRed"
+	// 	"paintbackgroundtype"	"2"
+	// 	"pin_to_sibling"	"teambutton1"
+    // }
 
 	"teambutton2"
 	{
@@ -167,34 +182,41 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[$X360]
-		"textAlignment"	"north-west"
+		"labelText"		"?"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"spectate"
-		"font"			"MontserratMedium20"
-		"fgcolor_override"		"255 255 255 255"
+		"font"			"TF2Icons50"
+		"fgcolor"		"White"
+
+		"defaultBgColor_override"	"ChromeBlackTransparent"
+		"armedBgColor_override"				"45 45 48 240"
+		"armedBgColor_override"				"45 45 48 240"
+		
+		"defaultFgColor_override"			"White"
+		"armedFgColor_override"				"White"
+		"depressedFgColor_override" 		"White"
 	}
 
-	"AutoPanel"
-    {
-        "ControlName"        "EditablePanel"
-        "fieldName"        "AutoPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"c-175"
-		"wide"			"450"
-		"tall"			"50"
-        "visible"        "1"
-        "enabled"        "1"
-        "scaleImage"        "0"    
-        "bgcolor_override"            "ChromeBlack"
-		"paintbackgroundtype"	"2"
-		"pin_to_sibling"	"teambutton2"
-    }
+	// "AutoPanel"
+    // {
+    //     "ControlName"        "EditablePanel"
+    //     "fieldName"        "AutoPanel"
+	// 	"xpos"			"0"
+	// 	"ypos"			"0"
+	// 	"zpos"			"c-175"
+	// 	"wide"			"450"
+	// 	"tall"			"50"
+    //     "visible"        "1"
+    //     "enabled"        "1"
+    //     "scaleImage"        "0"    
+    //     "bgcolor_override"            "ChromeBlackTransparent"
+	// 	"paintbackgroundtype"	"2"
+	// 	"pin_to_sibling"	"teambutton2"
+    // }
 	
 	"teambutton3"
 	{
@@ -210,34 +232,40 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"&2"	[$WIN32]
-		"labelText"		""		[$X360]
-		"textAlignment"	"north-west"
+		"labelText"		"m"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
-		"font"			"MontserratMedium20"
-		"fgcolor"		"255 255 255 255"
+		"font"			"TF2Icons50"
+		"fgcolor"		"White"
+
+		"defaultBgColor_override"	"ChromeBlackTransparent"
+		"armedBgColor_override"				"45 45 48 240"
+		
+		"defaultFgColor_override"			"White"
+		"armedFgColor_override"				"White"
+		"depressedFgColor_override" 		"White"
 	}
 
-	"SpecPanel"
-    {
-        "ControlName"        "EditablePanel"
-        "fieldName"        "SpecPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"c-175"
-		"wide"			"450"
-		"tall"			"50"
-        "visible"        "1"
-        "enabled"        "1"
-        "scaleImage"        "0"    
-        "bgcolor_override"            "ChromeBlack"
-		"paintbackgroundtype"	"2"
-		"pin_to_sibling"	"teambutton3"
-    }
+	// "SpecPanel"
+    // {
+    //     "ControlName"        "EditablePanel"
+    //     "fieldName"        "SpecPanel"
+	// 	"xpos"			"0"
+	// 	"ypos"			"0"
+	// 	"zpos"			"c-175"
+	// 	"wide"			"450"
+	// 	"tall"			"50"
+    //     "visible"        "1"
+    //     "enabled"        "1"
+    //     "scaleImage"        "0"    
+    //     "bgcolor_override"            "ChromeBlackTransparent"
+	// 	"paintbackgroundtype"	"2"
+	// 	"pin_to_sibling"	"teambutton3"
+    // }
 	
 	"CancelButton" [$WIN32] 
 	{
@@ -331,9 +359,8 @@
 		"ypos"			"255"
 		"ypos_lodef"	"292"
 		"zpos"			"1"
-		"wide"			"44"
-		"wide_lodef"	"70"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -402,8 +429,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
+		"ypos"			"480"
+		"zpos"			"7"
 		"wide"			"220"
 		"tall"			"125"
 		"autoResize"	"0"
@@ -416,7 +443,7 @@
 		"brighttext"	"1"
 		"font"			"MontserratBold50"
 		"fgcolor"		"White"
-		"pin_to_sibling"	"teambutton0"
+		//"pin_to_sibling"	"teambutton0"
 	}		
 	
 	"RedCount"
@@ -424,7 +451,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"480"
 		"zpos"			"5"
 		"wide"			"220"
 		"tall"			"125"
@@ -438,52 +465,52 @@
 		"brighttext"	"1"
 		"font"			"MontserratBold50"
 		"fgcolor"		"White"
-		"pin_to_sibling"	"teambutton1"
+		//"pin_to_sibling"	"teambutton1"
 	}		
 	
-	"AutoIcon"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AutoIcon"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"450"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"?"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"TF2Icons50"
-		"fgcolor"		"White"
-		"pin_to_sibling"	"teambutton2"
-	}	
+	// "AutoIcon"
+	// {
+	// 	"ControlName"	"CExLabel"
+	// 	"fieldName"		"AutoIcon"
+	// 	"xpos"			"0"
+	// 	"ypos"			"0"
+	// 	"zpos"			"5"
+	// 	"wide"			"450"
+	// 	"tall"			"50"
+	// 	"autoResize"	"0"
+	// 	"pinCorner"		"0"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"labelText"		"?"
+	// 	"textAlignment"	"center"
+	// 	"dulltext"		"0"
+	// 	"brighttext"	"1"
+	// 	"font"			"TF2Icons50"
+	// 	"fgcolor"		"White"
+	// 	"pin_to_sibling"	"teambutton2"
+	// }	
 
-	"SpecIcon"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SpecIcon"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"450"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"m"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"TF2Icons50"
-		"fgcolor"		"White"
-		"pin_to_sibling"	"teambutton3"
-	}	
+	// "SpecIcon"
+	// {
+	// 	"ControlName"	"CExLabel"
+	// 	"fieldName"		"SpecIcon"
+	// 	"xpos"			"0"
+	// 	"ypos"			"0"
+	// 	"zpos"			"5"
+	// 	"wide"			"450"
+	// 	"tall"			"50"
+	// 	"autoResize"	"0"
+	// 	"pinCorner"		"0"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"labelText"		"m"
+	// 	"textAlignment"	"center"
+	// 	"dulltext"		"0"
+	// 	"brighttext"	"1"
+	// 	"font"			"TF2Icons50"
+	// 	"fgcolor"		"White"
+	// 	"pin_to_sibling"	"teambutton3"
+	// }	
 	
 	"bluedoor"
 	{
@@ -687,8 +714,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

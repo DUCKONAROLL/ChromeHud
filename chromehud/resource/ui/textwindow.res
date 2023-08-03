@@ -13,8 +13,21 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"settitlebarvisible"	"0"
 	}
+
+	"DarkenBGPanel"
+    {
+        "ControlName"        "EditablePanel"
+        "fieldName"        "DarkenBGPanel"
+ 		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"0"
+		"wide"								"f0"
+		"tall"								"480"
+        "visible"        "1"
+        "enabled"        "1"
+        "bgcolor_override"            "0 0 0 150"
+    }
 	
 	"TFMessageTitle"
 	{
@@ -69,10 +82,10 @@
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"cs-0.5"
-		"ypos"			"75"
+		"ypos"			"c-185"
 		"zpos"			"1"
-		"wide"			"415"
-		"tall"			"295"
+		"wide"			"440"
+		"tall"			"340"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"

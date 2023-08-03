@@ -13,6 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"		"0 0 0 150" //Change this to 0 0 0 0 to remove the darkened background
 	}
 	
 	"MapInfoTitle"
@@ -22,7 +23,7 @@
 		"xpos"			"c-208"
 		"ypos"			"67"
 		"zpos"			"1"
-		"wide"			"225"
+		"wide"			"400"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -41,7 +42,7 @@
 		"xpos"			"c-206"
 		"ypos"			"85"
 		"zpos"			"1"
-		"wide"			"225"
+		"wide"			"400"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -61,7 +62,7 @@
 		"xpos"			"c-208"
 		"ypos"			"125"
 		"zpos"			"3"
-		"wide"			"195"
+		"wide"			"225"
 		"tall"			"250"
 		"autoResize"	"3"
 		"pinCorner"		"0"

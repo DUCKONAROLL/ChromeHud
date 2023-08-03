@@ -15,6 +15,15 @@
 	
 	TextureData
 	{
+		"glyph_alert"
+		{
+			"file"	"vgui/replay/thumbnails/misc/alertglyph"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+
 		"whiteAdditive"
 		{
 				"file"		"vgui/white_additive"
